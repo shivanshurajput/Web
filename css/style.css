@@ -63,10 +63,6 @@ p {
   align-items: center;
 }
 
-/* .flex-item {
-  flex: 5;
-} */
-
 .title {
   color: #ffffff;
   font-family: "Alatsi", sans-serif;
@@ -176,6 +172,12 @@ a {
   padding: 10px;
 }
 
+.nav-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .btn {
   padding: 10px 50px;
   margin: 0 25px 40px;
@@ -246,7 +248,7 @@ main {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .btn {
     padding: 8px 40px;
     margin: 6px;
